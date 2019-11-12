@@ -1,0 +1,8 @@
+@media only screen and (max-width: 1020px) {
+    time{
+      width:50%;
+    }
+    .text_content{
+      max-width:50%;
+    }
+}

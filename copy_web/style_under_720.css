@@ -1,0 +1,8 @@
+@media only screen and (max-width: 720px) {
+    time{
+      width:100%;
+    }
+    .text_content{
+      max-width:80%;
+    }
+}
