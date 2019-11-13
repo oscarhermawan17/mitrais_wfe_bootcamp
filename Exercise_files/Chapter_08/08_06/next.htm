@@ -141,9 +141,15 @@ function displayPanel(tabToActivate) {
     // go through all the <li> elements
     for (var i = 0; i < tabLinks.length; i++) {
         if (tabLinks[i] == tabToActivate) {
-
+			// if it's the one to activate, change its class
+            tabLinks[i].classList.add("active");
+			// and display the corresponding panel
+			tabPanels[i].style.display = "block";
         } else {
-
+			// remove the active class on the link
+        	tabLinks[i].classList.remove("active");
+			// hide the panel
+			tabPanels[i].style.display = "none";
         }
 	}
 }

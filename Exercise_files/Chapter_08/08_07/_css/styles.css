@@ -166,7 +166,7 @@ aside.languages {
 }
 
 #tabs > ul > .active{
-	background: white; /* old browsers */
+	background: green; /* old browsers */
 	cursor:pointer;
 }
 
