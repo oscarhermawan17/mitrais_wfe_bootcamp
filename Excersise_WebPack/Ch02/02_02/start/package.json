@@ -14,10 +14,12 @@
   "author": "Eve Porcello",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.1"
   }
 }
