@@ -4,6 +4,43 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
 	<script type="text/babel">
 
+		const delay = seconds => {
+			return new Promise((resolve, reject) => {
+				if(typeof seconds !== 'number') {
+					reject(new Error('Argument seconds must be a number'));
+				}
+				setTimeout(
+					() => resolve(`${seconds} second delay is up`), 
+					seconds * 1000
+				);
+			});
+		};
+
+		console.log("zero seconds");
+		delay("10 Minutes").then(msg => msg.toUpperCase())
+				.then(msg => `${msg}!!!!!!`)
+				.then(msg => console.log(msg));
+		delay(2).then(msg => msg.toUpperCase())
+				.then(msg => `${msg}!!!!!!`)
+				.then(msg => console.log(msg));		
+		
+
+		function oke(ada){
+			return new Promise((resolve, reject) => {
+				if(ada === 2)
+					return setTimeout(reject('oke'), 2 *1000)
+				else
+					return setTimeout(reject('gagal'), 2 *1000)
+			})
+		}
+
+		oke(3).then(hasil=>{
+			console.log(hasil)
+		})
+		.catch(err =>{
+			console.log(err)
+		})
+
 
 	</script>
 	<title>Promises</title>

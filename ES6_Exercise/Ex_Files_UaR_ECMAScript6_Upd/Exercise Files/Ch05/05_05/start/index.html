@@ -3,6 +3,18 @@
 <head>
 	<script>
 
+		//anonymus function and then call it ('eveporcello')
+		(async(loginName) => {
+			try {
+				var response = await fetch(`https://api.github.com/users/${loginName}/followers`);
+				var json = await response.json();
+				var followerList = json.map(user => user.login);
+				console.log(followerList);
+			} catch(e) {
+				console.log("Data didn't load", e);
+			}
+		})('eveporcello');
+
 
 	</script>
 	<title>Async and Fetch</title>
