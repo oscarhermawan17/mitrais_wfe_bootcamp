@@ -4,7 +4,8 @@
   "description": "Learning all about webpack 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack"
   },
   "keywords": [
     "webpack",
@@ -18,6 +19,6 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.1"
   }
 }
