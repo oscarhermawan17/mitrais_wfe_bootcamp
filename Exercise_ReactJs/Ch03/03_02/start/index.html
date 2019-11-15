@@ -16,16 +16,17 @@
         <div id="root"></div>
         <script type="text/babel">
             
-            const Hello = () => {
+            const Hello = ({library, message}) => {
                 return (
                     <div className="heading">
-                    <h1>Welcome to React</h1>
+                        <h1>Welcome to {library}</h1>
+                        <p>{message}</p>
                     </div>
                 )
             };
             
             ReactDOM.render(
-                <Hello />,
+                <Hello library="React" message="Enjoy!"/>,
                 document.getElementById("root")
             );
         </script>
