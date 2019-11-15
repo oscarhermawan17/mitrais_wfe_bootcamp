@@ -1,11 +1,15 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin")
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
     entry: './src/index.js',
     output: {
         filename: "main.js",
         path: path.resolve(__dirname, "dist")
+    },
+    optimization: {
+        minimizer: [new UglifyJsPlugin()]
     },
     plugins: [new HtmlWebpackPlugin()],
     devServer: {
