@@ -24,12 +24,12 @@ li{
     text-transform: uppercase;
 }
 
-.left_position{
+.left_float{
     float:left;
     
 }
 
-.right_position{
+.right_float{
     float:right;
 }
 
@@ -37,6 +37,45 @@ li:hover{
     background-color: violet;
 }
 
-.clear {
+.clear_left{
     clear: left;
+}
+
+.clear_right {
+    clear: right;
+}
+
+article{
+    max-width: 1020px;
+    margin:0 auto;
+}
+
+.container_box{
+    width: 33.3333%;
+}
+
+.box{
+    background-color: turquoise;
+    border: 10px solid red;
+}
+
+.box_title{
+    text-align: center;
+    background-color: teal;
+}
+
+.container_button{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.success{
+    padding: 10px;
+    background-color: green;
+}
+
+.danger{
+    padding: 10px;
+    background-color: red;
 }

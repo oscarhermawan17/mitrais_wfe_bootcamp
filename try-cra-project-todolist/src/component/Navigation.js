@@ -9,11 +9,11 @@ function Navigation() {
   return (
     <nav>
       <ul>
-        <li onClick={() => Oke()} className="left_position">login</li>
-        <li className="left_position">create a task</li>
-        <li className="right_position">logout</li>
+        <li onClick={() => Oke()} className="left_float">login</li>
+        <li className="left_float">create a task</li>
+        <li className="right_float">logout</li>
       </ul>
-      <div className="clear"></div>
+      <div className="clear_left"></div>
     </nav>
   );
 }
