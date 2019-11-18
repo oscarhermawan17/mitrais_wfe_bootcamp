@@ -8,6 +8,14 @@ class Content extends React.Component {
     }
   }
 
+  componentDidUpdate(prevProps, prevState, snapshot){
+    if(this.props.peoples.length < prevProps.peoples.length ){
+      setTimeout( ()=>{
+        alert("Success deleted data")
+      }, 50)
+    }
+  }
+
   render(){
     return (
       <article>
