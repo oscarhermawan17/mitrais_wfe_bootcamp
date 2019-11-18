@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
+//using 2 style function, with arrow function, or not
 function Navigation(props) {
   return (
     <nav>

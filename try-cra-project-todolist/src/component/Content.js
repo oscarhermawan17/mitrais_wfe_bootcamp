@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Content extends React.Component {
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
       this.state = {
         peoples:[]
     }
@@ -40,5 +41,9 @@ class Content extends React.Component {
     );
   }
 }
+
+Content.propTypes = {
+  peoples: PropTypes.array
+};
 
 export default Content;
