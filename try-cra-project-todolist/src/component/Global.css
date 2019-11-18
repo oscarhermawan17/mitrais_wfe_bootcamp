@@ -24,6 +24,11 @@ li{
     text-transform: uppercase;
 }
 
+li a{
+    color: white;
+    text-decoration: none;
+}
+
 .left_float{
     float:left;
     
@@ -103,4 +108,12 @@ article{
     padding: 30px;
     border: 2px solid #888;
     width: 40%;
+}
+
+.lost_page{
+    margin-top: 200px;
+    text-align: center;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 4em;
 }

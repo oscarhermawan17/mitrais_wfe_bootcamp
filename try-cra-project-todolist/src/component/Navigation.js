@@ -1,16 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-
-function Oke(){
-  alert('woe')
-}
-
-function Navigation() {
+function Navigation(props) {
   return (
     <nav>
       <ul>
-        <li onClick={() => Oke()} className="left_float">login</li>
-        <li className="left_float">create a task</li>
+        <li className="left_float">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="left_float">
+          <Link to="/create_player">Create Player</Link>
+        </li>
         <li className="right_float">logout</li>
       </ul>
       <div className="clear_left"></div>

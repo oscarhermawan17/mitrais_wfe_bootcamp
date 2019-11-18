@@ -1,11 +1,9 @@
 import React from 'react';
-import Navigation from './component/Navigation'
-import Content from './component/Content'
-import Footer from './component/Footer'
+import Content from './Content'
 import axios from 'axios'
 import './Global.css'
 
-class App extends React.Component {
+class Home extends React.Component {
   constructor(){
     super()
       this.state = {
@@ -58,10 +56,6 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <header className="App-header">
-          TASK REACT MITRAIS
-        </header>
-        <Navigation />
         <div className={this.state.modal}>
           <div className="modal-content">
             Edit Name Content
@@ -76,10 +70,9 @@ class App extends React.Component {
           </div>
         </div>
         <Content peoples={this.state.peoples} edit_button={(value) => this.editButton(value)} delete_button={(value) => this.deleteButton(value)}/>
-        <Footer />
       </div>
     );
   }
 }
 
-export default App;
+export default Home;
