@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/css/main.68a7a952.chunk.css",
+    "main.js": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/main.5c4c1ea0.chunk.js",
+    "main.js.map": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/main.5c4c1ea0.chunk.js.map",
+    "runtime-main.js": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/runtime-main.bd9d097e.js",
+    "runtime-main.js.map": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/runtime-main.bd9d097e.js.map",
+    "static/js/2.496d3e6c.chunk.js": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/2.496d3e6c.chunk.js",
+    "static/js/2.496d3e6c.chunk.js.map": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/2.496d3e6c.chunk.js.map",
+    "static/js/3.16e74b31.chunk.js": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/3.16e74b31.chunk.js",
+    "static/js/3.16e74b31.chunk.js.map": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/js/3.16e74b31.chunk.js.map",
+    "index.html": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/index.html",
+    "precache-manifest.7498efad004306d45e76d4b5a6038d5c.js": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/precache-manifest.7498efad004306d45e76d4b5a6038d5c.js",
+    "service-worker.js": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/service-worker.js",
+    "static/css/main.68a7a952.chunk.css.map": "/mitrais_wfe_bootcamp/tree/master/try-cra-project-todolist/static/css/main.68a7a952.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd9d097e.js",
+    "static/js/2.496d3e6c.chunk.js",
+    "static/css/main.68a7a952.chunk.css",
+    "static/js/main.5c4c1ea0.chunk.js"
+  ]
+}
